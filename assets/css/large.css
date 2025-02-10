@@ -1,0 +1,17 @@
+@media (min-width: 1024px) {
+    #cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #cards-container .card a {
+        width: 40%;
+        padding: 5px 10px;
+    }
+
+    #main {
+        width: 60%;
+       margin: auto;
+    }
+    
+} 
