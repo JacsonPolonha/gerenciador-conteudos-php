@@ -18,7 +18,7 @@ a {
     display: flex;
     position: fixed;
     width: 100%;
-    background-color: #f3f3f3;
+    background-color: #e6dada;
 }
 
 .navbar {
@@ -70,7 +70,8 @@ a {
     left: 0;
     width: 100%;
     /* background-color: #fff; */
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
+    background-color: #e6dada;
 }
 
 .menu.show {
@@ -95,3 +96,70 @@ a {
 }
 /*FIM MENU*/
 
+body {
+    background-color: #e6dada;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#content {
+    background-color: #fff;
+    /* padding-top: 80px; */
+    width: 100%;
+    min-height: 95vh;
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-login {
+    width: 100%;
+}
+
+.form-layout h1 {
+    margin-bottom: 40px;
+}
+
+#form-login label {
+    font-size: 1.4rem;
+}
+
+#form-login input, textarea {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 15px;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#form-login input[type=submit] {
+    background-color: rgb(70, 180, 56);
+    width: 60%;
+
+}
+
+#form-login input[type=submit]:hover {
+    background-color: rgb(42, 151, 60);
+}
+
+#footer {
+    background-color: #e6dada;
+    /* text-align: center; */
+}

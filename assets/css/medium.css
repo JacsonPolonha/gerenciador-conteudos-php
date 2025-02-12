@@ -20,4 +20,18 @@
     }
     /*FIM MENU*/
 
+    #content {
+        max-width: 90%;
+        
+    }
+
+    #form-login {
+        width: 90%;
+    }  
+
+    #form-login input, textarea {
+        line-height: 1.2rem;
+        font-size: 1.1rem;
+    }
+
 }

@@ -11,7 +11,17 @@
 
     #main {
         width: 60%;
-       margin: auto;
+        margin: auto;
     }
+
+    #content {
+        max-width: 80%;
+    }
+
+    #form-login {
+        width: 80%;
+    }   
+
+    
     
 } 

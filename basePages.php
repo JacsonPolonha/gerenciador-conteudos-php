@@ -13,19 +13,14 @@
     <?php 
         include 'views/includes/header.php';
     ?>
+    
     <main id="content">
         <section class="container">
-            <h1>Página inicial</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta nulla omnis molestias vel. Ipsam laboriosam eius blanditiis, ducimus inventore, doloremque illum dicta reprehenderit nihil id officiis numquam soluta, voluptates reiciendis?</p>
-        </section>
-
-        <section class="container">
-            <h1>Post</h1>
+            <h1>Página </h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta nulla omnis molestias vel. Ipsam laboriosam eius blanditiis, ducimus inventore, doloremque illum dicta reprehenderit nihil id officiis numquam soluta, voluptates reiciendis?</p>
         </section>
     </main>
-    
-    
+       
 
     <?php 
         include 'views/includes/footer.php';
